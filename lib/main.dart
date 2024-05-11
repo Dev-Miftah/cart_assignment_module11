@@ -5,11 +5,6 @@ import 'package:flutter/material.dart';
 
 void main() {
   runApp(  const MyApp());
-  //   DevicePreview(
-  //   enabled: !kReleaseMode,
-  //   builder: (context) => const MyApp(),
-  //   ),
-  // );
 }
 
 class MyApp extends StatelessWidget {
@@ -20,9 +15,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Assignment Module 11',
-      // useInheritedMediaQuery: true,
-      // locale: DevicePreview.locale(context),
-      // builder: DevicePreview.appBuilder,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
